@@ -21,3 +21,9 @@ int main( void ) {
 
     return 0;
 }
+
+/*
+& and '*' are inverses of each other
+& -> the memory address
+'*' -> the value inside the memory address
+*/

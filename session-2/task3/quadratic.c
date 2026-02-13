@@ -21,8 +21,13 @@ int main( void ) {
      * You can define additional variable for intermediate results to make the code simpler.
      * Print out the final results for the 2 roots as float values.
      */
+    negate = -b;
+    discrim = b*b - 4*a*c;
+    formula1 = (negate + sqrt(discrim))/2*a;
+    formula2 = (negate - sqrt(discrim))/2*a;
 
+
+    printf("The roots of this function are %f\n", formula1, formula2);
     
-
     return 0;
 }
