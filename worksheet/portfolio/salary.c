@@ -31,9 +31,9 @@
     float take_home_sal = post_NI - (up_for_tax * tax);
 
     printf("Salary £%.2f\n",salary);
-    printf("NI contribution: £%.2f\n",NI_contribution);
-    printf("Tax contribution: £%.2f\n",tax_contribution);
-    printf("Take home salary: £%.2f\n",take_home_sal);
+    printf("NI contribution £%.2f\n",NI_contribution);
+    printf("Tax contribution £%.2f\n",tax_contribution);
+    printf("Take home salary £%.2f\n",take_home_sal);
 
     return 0;
  }
