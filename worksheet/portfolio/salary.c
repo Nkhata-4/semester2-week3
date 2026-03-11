@@ -19,9 +19,9 @@
     //printf("Tax contribution £...",var_name);
     //printf("Take home salary £...",var_name);
 
-    float salary = 36250; //£14000-£40000
+    float salary = 24000; //£14000-£40000
     float NI = 0.08; //0%-10%
-    float tax = 0.15; //10%-30%
+    float tax = 0.20; //10%-30%
     
     
     float NI_contribution = salary * NI;
